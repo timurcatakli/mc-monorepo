@@ -9,10 +9,11 @@
     "packages/*"
   ],
   "volta": {
-    "node": "14.12.0",
-    "yarn": "1.22.4"
+    "node": "14.15.4",
+    "yarn": "1.22.10"
   },
   "devDependencies": {
+    "eslint": "^7.18.0",
     "rimraf": "^3.0.2"
   }
 }

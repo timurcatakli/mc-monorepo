@@ -1,0 +1,20 @@
+{
+  "env": {
+    "es2021": true
+  },
+  "extends": ["eslint:recommended"],
+  "rules": {
+    "prefer-const": "error"
+  },
+  "parserOptions": {
+    "sourceType": "module"
+  },
+  "overrides": [
+    {
+      "files": ["**/*.test.js", "**/*.test.jsx"],
+      "env": {
+        "jest": true
+      }
+    }
+  ]
+}
