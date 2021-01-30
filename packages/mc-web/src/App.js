@@ -3,7 +3,7 @@ import { add } from "@mc/utils";
 
 const App = ({ title }) => (
   <div>
-    {title} - {add(9, 4)}
+    {title} - {add(9, 4)} - works
   </div>
 );
 
