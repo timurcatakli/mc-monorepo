@@ -12,8 +12,18 @@
     "node": "14.15.4",
     "yarn": "1.22.10"
   },
+  "scripts": {
+    "clean": "scripty",
+    "lint": "scripty",
+    "test": "scripty"
+  },
+  "scripty": {
+    "path": "./scripts/workspace"
+  },
   "devDependencies": {
     "eslint": "^7.18.0",
-    "rimraf": "^3.0.2"
+    "lerna": "^3.22.1",
+    "rimraf": "^3.0.2",
+    "scripty": "^2.0.0"
   }
 }
