@@ -81,11 +81,26 @@ Yarn scripts are run via `scripty`. All `scripty` scripts should be executable b
 
 ## Changelog Policy & Husky
 
-Conventional Changelog
+Conventional Changelog - automatically generated...
+
+`packages/mc-web/CHANGELOG.md`
 
 Commit messages are validated. Validating a single message:
 
 `echo "build(api): change something in api's build" | yarn commitlint`
+
+---
+
+## Package Versioning
+
+```js
+$ lerna version --conventional-commits
+
+Changes:
+ - @mc/utils: 1.0.0 => 1.0.1
+ - @mc/web: 1.0.0 => 1.0.1 (private)
+
+```
 
 ---
 
