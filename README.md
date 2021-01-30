@@ -79,9 +79,13 @@ Yarn scripts are run via `scripty`. All `scripty` scripts should be executable b
 
 ---
 
-## Changelog Policy
+## Changelog Policy & Husky
 
 Conventional Changelog
+
+Commit messages are validated. Validating a single message:
+
+`echo "build(api): change something in api's build" | yarn commitlint`
 
 ---
 
